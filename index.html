@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSRS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="https://discord.gg/TGCPWGSqzf" target=”_blank”><img src="img/discord.png"></a>
+            <a href="https://github.com/b96-osrs" target=”_blank”><img src="img/github.png"></a>
+        </div>
+        <div class="title">Seaweed Calculator</div>
+        <div class="controls">
+            <input type="checkbox" id="check-1"  class="toggle">
+            <label for="check-1">12:2</label>
+            <input type="checkbox" id="check-2"  class="toggle">
+            <label for="check-2">18:3</label>
+            <input type="checkbox" id="check-3"  class="toggle">
+            <label for="check-3">18:3 + pick up</label>
+        </div>
+        <div class="user-input">
+            <div class="text-input">
+                <input type="text" id="exp-input" placeholder="2345678">
+                <label for="exp-input">Current Exp</label>
+            </div>
+            <div class="text-input">
+                <input type="text" id="lvl-input" placeholder="96">
+                <label for="lvl-input">Target Level</label>
+            </div>
+            <div class="text-input">
+                <button class="submit-button">Calculate</button>
+            </div>
+        </div>
+
+        <div class="result-box">
+            <div>
+                <img src="img/sand.png" alt="bucket of sand" id="sand-img">
+                <label for="sand-img" id="sand-label">0</label>
+            </div>
+            <div>
+                <img src="img/seaweed.png" alt="giant seaweed" id="seaweed-img">
+                <label for="seaweed-img" id="seaweed-label">0</label>
+            </div>
+            <div>
+                <img src="img/molten-glass.png" alt="molten glass" id="glas-img">
+                <label for="glas-img" id="glas-label">0</label>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
